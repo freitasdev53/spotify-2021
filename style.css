@@ -1,0 +1,153 @@
+*{margin:0; padding:0; text-decoration:none; list-style:none;}
+
+/* index */
+
+.cabecalho{width:100%; 
+    display:inline; 
+    position:absolute; 
+    background-color:black;
+}
+
+.navegacao{
+    float:right; 
+    padding:2%; 
+    margin-right:80px;
+}
+
+.navegacao a{
+    color:white; 
+    margin:10px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:1.2em;
+}
+
+.navegacao a:hover{
+    color:green;
+}
+
+.cabecalho img{
+    float:left; 
+    width:132px; 
+    height:60px; 
+    position:absolute; 
+    margin-top: 10px; 
+    margin-left:50px;
+}
+.header{
+    display:flex;
+}
+
+.header img{
+    margin-top:5%;
+}
+
+.header a {
+     background-color:black; 
+     color:white; 
+     padding: 20px;
+     border-radius:40px;
+     margin-top:45%;
+     margin-left:15%;
+     padding-left:5%;
+     padding-right:5%;
+     position:absolute;
+     font-size:1.3em;
+     font-family:Arial, sans-serif;
+}
+.header a:hover{
+    padding-left:6%;
+    padding-right:6%;
+}
+
+.headersecundario{
+    display:flex;
+}
+
+.headersecundario a{
+    background-color:#1ed760;
+    padding: 20px;
+     border-radius:40px;
+     margin-top:30%;
+     margin-left:15%;
+     padding-left:5%;
+     padding-right:5%;
+     font-size:1.3em;
+    color:gray;
+    position:absolute;
+    font-family:Arial, sans-serif;
+}
+
+.headersecundario a:hover{
+    padding-left:6%;
+    padding-right:6%;
+}
+
+.rodape{
+    background-color:black;
+    display:flex;
+    font-family:Arial, sans-serif;
+}
+.dados{
+    display:flex;
+    padding:1%;
+    position:relative;
+    margin-left:15%;
+    
+}
+.dados a{
+    color:white;
+    font-size:1.3em;
+}
+.dados a:hover{color:#1ed760;}
+
+.dados a{
+    margin:10px;
+}
+.dados ul{
+    display:flex; 
+    flex-direction:column;
+    margin:3%;
+}
+.rodape img{
+    margin:2%;
+   float:left;
+   width:132px;
+   height:90px;
+}
+
+.dados p{
+    font-family:Arial, sans-serif; 
+    color:gray;
+}
+.socialmedias{
+    float:right;
+    display:flex;
+    margin-left:10%;
+    margin-top:5%;
+}
+.socialmedias a{
+    color:white;
+    font-size:3.5em;
+    margin:10px;
+    
+}
+#insta{
+    background-color:gray; 
+    padding:10px; 
+    border-radius:30px;
+}
+
+#face{
+    background-color:gray; 
+    padding:10px; 
+    border-radius:30px;
+}
+
+#twitter{
+    background-color:gray; 
+    padding:10px; 
+    padding-left:20px; 
+    padding-right:20px; 
+    border-radius:30px;
+}
+
